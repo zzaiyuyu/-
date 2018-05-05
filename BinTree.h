@@ -22,8 +22,10 @@ void DestroyBinTree(pBTNode *pRoot);
 
 // 前序遍历递归 
 void PreOrder(pBTNode pRoot); 
-// 前序遍历非递归 
+// 前序遍历非递归 一
 void PreOrderNor(pBTNode pRoot); 
+// 前序遍历非递归 二
+void PreOrderNorOP(pBTNode pRoot);
 
 // 中序遍历递归 
 void InOrder(pBTNode pRoot); 
